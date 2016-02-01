@@ -1,0 +1,67 @@
+body {
+	text-align: center;
+	font-family: 'Chivo', Arial;
+	margin: 0;
+	padding: 0;
+}
+nav {
+	text-align: right;
+	background-color: #0d0d0d;
+	padding: 0 50px;
+}
+nav ul {
+	margin: 0;
+	padding: 30px;
+}
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+#content {
+	margin: 80px 20px;
+}
+h1 {
+	font-size: 42px;
+	font-weight: 700;
+}
+h2 {
+	color: #4A4A4A;
+	font-size: 28px;
+}
+li a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #7f7f7f;
+	padding: 10px 30px;
+	border: 1px solid transparent;
+	text-transform: uppercase;
+	font-weight: 700;
+	-webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+li a:hover {
+	text-decoration: none;
+	border: 1px solid #7f7f7f;
+	color: #fff;
+}
+h2 span {
+	color: #FF6D6D;
+}
+.mail{
+	background-color: #FF6D6D;
+	padding: 14px 40px;
+	text-decoration: none;
+	font-size: 24px;
+	color: #fff;
+	-webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+.mail:hover {
+	background-color: #FF2222;
+}
